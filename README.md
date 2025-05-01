@@ -33,12 +33,32 @@ A RESTful API for managing events, venues, and ticket bookings. Built using Lara
 
 ---
 
-## 🔐 Seeded Admin Credentials
+## 🔐 Seeded Data
 
-- Email: **admin@example.com**
-- Password: **password**
+The database seeder creates the following for easy testing:
 
-Used for admin-only routes like creating events and venues.
+### Admin User
+- **Email**: `admin@example.com`
+- **Password**: `password`
+- Has full access to event and venue management routes.
+
+### Sample Venue
+- **Name**: `Main Hall`
+- **Location**: `Prishtina`
+- **Capacity**: `100`
+
+### Sample Event
+- **Title**: `Laravel Workshop`
+- **Description**: `Intro to Laravel & Sanctum`
+- **Category**: `tech`
+- **Venue**: `Main Hall`
+- **Start**: 5 days from now
+- **End**: +3 hours
+
+To load this data, run:
+```bash
+php artisan migrate:fresh --seed
+
 
 
 ## 🔐 Authentication
