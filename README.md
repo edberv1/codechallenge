@@ -56,6 +56,7 @@ The database seeder creates the following for easy testing:
 - **End**: +3 hours
 
 To load this data, run:
+
 php artisan migrate:fresh --seed
 
 
