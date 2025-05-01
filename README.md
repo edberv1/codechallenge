@@ -59,3 +59,18 @@ php artisan migrate --seed
 
 # 7. Serve
 php artisan serve
+
+
+
+🔐 Authentication
+API uses Laravel Sanctum
+
+After registering or logging in, include your token in every request:
+
+Header:
+
+makefile
+Copy
+Edit
+Authorization: Bearer your_token_here
+Accept: application/json
