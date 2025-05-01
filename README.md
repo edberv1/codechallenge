@@ -33,6 +33,14 @@ A RESTful API for managing events, venues, and ticket bookings. Built using Lara
 
 ---
 
+🔐 Authentication
+-API uses Laravel Sanctum
+-After registering or logging in, include your token in every request:
+
+Authorization: Bearer your_token_here
+Accept: application/json
+
+
 ## ⚙️ Setup Instructions
 
 ```bash
