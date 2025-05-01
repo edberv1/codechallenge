@@ -57,6 +57,7 @@ The database seeder creates the following for easy testing:
 
 To load this data, run:
 ```bash
+# This is a shell command
 php artisan migrate:fresh --seed
 
 
