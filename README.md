@@ -33,6 +33,14 @@ A RESTful API for managing events, venues, and ticket bookings. Built using Lara
 
 ---
 
+## 🔐 Seeded Admin Credentials
+
+- Email: **admin@example.com**
+- Password: **password**
+
+Used for admin-only routes like creating events and venues.
+
+
 ## 🔐 Authentication
 
 -API uses Laravel Sanctum
