@@ -43,6 +43,10 @@ Authorization: Bearer your_token_here
 
 Accept: application/json
 
+📫 Postman API Collection
+
+📁 [Download postman_collection.json](https://github.com/edberv1/codechallenge/blob/main/postman_collection.json)
+
 
 ## ⚙️ Setup Instructions
 
