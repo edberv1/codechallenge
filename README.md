@@ -55,9 +55,6 @@ The database seeder creates the following for easy testing:
 - **Start**: 5 days from now
 - **End**: +3 hours
 
-To load this data, run:
-
-php artisan migrate:fresh --seed
 
 
 
