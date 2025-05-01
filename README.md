@@ -33,7 +33,7 @@ A RESTful API for managing events, venues, and ticket bookings. Built using Lara
 
 ---
 
-🔐 Authentication
+## 🔐 Authentication
 
 -API uses Laravel Sanctum
 
@@ -43,7 +43,7 @@ Authorization: Bearer your_token_here
 
 Accept: application/json
 
-📫 Postman API Collection
+## 📫 Postman API Collection
 
 📁 [Download postman_collection.json](https://github.com/edberv1/codechallenge/blob/main/postman_collection.json)
 
